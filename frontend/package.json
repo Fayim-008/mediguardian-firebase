@@ -1,0 +1,35 @@
+{
+  "name": "mediguardian",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MediGuardian - Caring Beyond Distance. Medicine management dashboard for caregivers.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "firebase": "^11.6.0",
+    "jsqr": "^1.4.0",
+    "lucide-react": "^0.400.0",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.0",
+    "react-toastify": "^10.0.6",
+    "recharts": "^2.12.7",
+    "socket.io-client": "^4.8.4"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.8",
+    "@vitejs/plugin-react": "^4.3.1",
+    "jsdom": "^25.0.1",
+    "vite": "^5.3.1",
+    "vitest": "^2.1.9"
+  }
+}
