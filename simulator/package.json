@@ -1,0 +1,12 @@
+{
+  "name": "mediguardian-simulator",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Test doubles for the ESP32 box: HTTP mock (cli.js) and Socket.IO mock (socket-device.js).",
+  "scripts": {
+    "device": "node cli.js",
+    "socket-device": "node socket-device.js"
+  },
+  "dependencies": { "socket.io-client": "^4.8.4" }
+}
